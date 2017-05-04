@@ -1,0 +1,30 @@
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <input type="text" placeholder="Message Goes Here" [(ngModel)]="message">
+                <button class="btn btn-primary" (click)="sendMessage()">Send</button>
+            </div>
+                
+        </div>
+        <div class="col-md-6">
+            <ul class="list-group">
+                <li *ngFor='let msg of messages' class="list-group-item">
+                    <p><strong>{{ msg.user }}</strong> says <strong>{{ msg.message }}</strong></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!--
+<div>
+    <input type="text" placeholder="Message goes here" [(ngModel)]="message">
+    <button (click)="sendMessage()">Send</button>
+</div>
+
+<div>
+    <ul>
+        <li *ngFor='let msg of messages'>
+            {{ msg }}
+        </li>
+    </ul>
+</div>
+-->
