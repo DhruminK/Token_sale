@@ -8,7 +8,6 @@ const rootDir = __dirname;
 module.exports = {
 
 	devtool: 'source-map',
-	watch: true,
 
 	entry: {
 		chat: [ path.resolve(rootDir, 'Angular', 'main')],
