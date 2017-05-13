@@ -37,6 +37,8 @@ $ npm run build-opti
 $ npm start
 ```
 
+Open URL http://localhost:8080 to start interacting with the application
+
 MIT License
 
 
