@@ -7,7 +7,7 @@ import * as io from 'socket.io-client';
 export class ChatService {
 
 	// Localhost address that we set in our server code
-	private url = 'http://192.168.0.103:8080';
+	private url = 'http://localhost:8080';
 	private socket;
 	constructor() {
 		this.socket = io(this.url);
