@@ -5,7 +5,7 @@ import "./DkToken.sol";
 contract DkTokenSale {
 
     // User who deployed the contract
-    address admin;
+    address payable admin;
     DkToken public tokenContract;
     uint256 public tokenPrice;
     uint256 public tokenSold;

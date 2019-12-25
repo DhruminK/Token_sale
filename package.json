@@ -4,7 +4,7 @@
   "description": "This repository is a very basic Chatroom app which was build using Node.js. This application only allows for broadcasting to every active user connected to the application\r # Features!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev" : "lite-server"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/DhruminK/Chatroom#readme",
   "devDependencies": {
+    "lite-server": "^2.5.4",
     "truffle": "^5.1.5"
-  }
+  },
+  "dependencies": {}
 }
