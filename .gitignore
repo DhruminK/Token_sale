@@ -2,3 +2,4 @@
 /public/bundle
 dump.rdb
 npm-debug.log
+/build
