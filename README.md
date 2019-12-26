@@ -10,6 +10,7 @@ This repository is a very basic demonstration of Token Sale using ERC20 Token.
 ### Dependencies
 
 * [Ganuche] - Blockchain simulator for Ethereum development
+* [Metamask] - Brings Ethereum wallet to browser without downloading full node
 
 ### Tech
 
@@ -73,3 +74,4 @@ MIT License
    [jquery]: <https://jquery.com/>
    [truffle]: <https://www.trufflesuite.com/docs/truffle/overview>
    [ganuche]: <https://www.trufflesuite.com/docs/ganache/overview>
+   [Metamask]: <https://metamask.io/>
