@@ -16,7 +16,7 @@ This repository is a very basic demonstration of Token Sale using ERC20 Token.
 
 Token Sale uses technologies like
 
-* [Node.js] - Because this is one of the use case of Node.js
+* [Node.js] - To make web server and one of the dependencies of [Truffle]
 * [Bootstrap] - For better UI
 * [Truffle] - To Compile and manage smart-contracts
 * [Jquery] - Dependency of bootstrap
